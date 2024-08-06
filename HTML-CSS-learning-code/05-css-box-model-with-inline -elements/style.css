@@ -1,0 +1,52 @@
+p {
+  background-color: deeppink;
+  color: purple;
+  width: 300px;
+  border: 10px solid purple;
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.html {
+  background-color: bisque;
+  height: 200px;
+  width: 200px;
+  /* There is no effect of height and width on inline elements */
+  padding: 10px;
+  border: 5px solid blue;
+  margin: 10px;
+  /* display: block; */
+  display: inline-block;
+  /* display like inline bur behaves like block means height width applicable */
+}
+
+img {
+  width: 450px;
+  height: 500px;
+  background-color: deeppink;
+  padding: 25px;
+  margin: 10px;
+  border: 5px solid purple;
+}
+
+video {
+  width: 500px;
+  height: 500px;
+  background-color: deeppink;
+  padding: 25px;
+  margin: 10px;
+  border: 5px solid purple;
+}
+
+iframe {
+  width: 720px;
+  height: 480px;
+  background-color: deeppink;
+  padding: 25px;
+  margin: 10px;
+  border: 5px solid purple;
+}
+
+a {
+  width: 600px;
+}

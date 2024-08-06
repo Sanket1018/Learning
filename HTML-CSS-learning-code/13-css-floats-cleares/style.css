@@ -1,0 +1,16 @@
+img{
+  width: 200px;
+  float: left;
+  margin-right: 1rem;
+  display: float;
+}
+
+.first-paragraph{
+  /* background-color: antiquewhite; */
+  /* clear: left; */
+}
+
+.container{
+  background-color: cadetblue;
+  display: flow-root;
+}

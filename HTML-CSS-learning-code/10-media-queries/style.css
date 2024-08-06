@@ -1,0 +1,45 @@
+
+
+.square{
+  width: 300px;
+  height: 300px;
+  background-color: black;
+  border: 2px solid green;
+  /* -webkit-print-color-adjust:exact; */
+
+}
+
+/* @media (orientation:portrait) and (max-width:300px)
+{
+  .square{
+    background-color: orange;
+    border: 5px solid red;
+  }
+} */
+/* 
+@media (151px <= width <=300px)
+{
+  .square{
+    background-color: orange;
+    border: 5px solid red;
+  }
+}  */
+
+@media (min-width:200px) and (max-width:500px){
+  .square{
+    background-color: lightsalmon;
+  }
+}
+
+/* @media print and (width <=500px){
+  .square{
+    background-color: pink;
+  }
+} */
+
+
+
+
+
+
+

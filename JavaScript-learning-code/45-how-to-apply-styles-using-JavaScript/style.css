@@ -1,0 +1,40 @@
+#css-image {
+  border: 4px solid green;
+}
+
+[alt="javascript roadmap"] {
+  border: 4px solid hotpink;
+}
+
+p b {
+  /* display: none; */
+  /* visibility: hidden; */
+  /* opacity: 0; */
+  /* pointer-events: none; */
+}
+
+[procodrr="akash"] {
+  color: orangered;
+}
+
+.green-link {
+  color: green;
+  text-decoration-line: none;
+  font-weight: 700;
+  font-family: cursive;
+}
+
+.wavy-link {
+  text-decoration: wavy;
+}
+
+.my-link {
+  border: 2px solid green;
+}
+
+.pink-link {
+  color: deeppink;
+  text-decoration-line: none;
+  font-weight: 700;
+  font-family: cursive;
+}

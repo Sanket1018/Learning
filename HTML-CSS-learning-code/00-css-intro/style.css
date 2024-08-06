@@ -1,0 +1,12 @@
+p {
+  color: red;
+  font-size: 24px;
+  font: weight 400px;
+  font-style: italic;
+  text-decoration: underline wavy;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}

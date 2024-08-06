@@ -1,0 +1,17 @@
+section {
+  background-color: pink;
+  font-size: 2em;
+  width: 2em;
+}
+
+div {
+  background-color: green;
+  font-size: 2em;
+  width: 2em;
+  padding: 1em;
+  margin: 1em;
+}
+
+.rem-div {
+  width: 3rem;
+}

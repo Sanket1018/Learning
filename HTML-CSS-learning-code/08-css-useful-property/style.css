@@ -1,0 +1,43 @@
+.box {
+  /* background-color: white; */
+  width: 300px;
+  height: 150px;
+
+  /* opacity: 0.5;
+  transform: scale(5);
+  transform-origin: 100% 100%; */
+  /* transform: rotate(45deg); */
+  /* transform: translatex(100px);*/
+  /* transform: translatex(50%);
+  transform: translatey(50%); */
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+
+  box-shadow: 5px 5px 10px 5px;
+  border-radius: 5px;
+
+  background-color: green;
+  /* background-image: url("https://images.unsplash.com/photo-1564910443496-5fd2d76b47fa?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8N3x8c291cmNlfGVufDB8fDB8fHww"); */
+  background-size: 50%;
+  background-repeat: no-repeat;
+  /* background-position: 10px 10px; */
+  transition: transform 200ms;
+}
+
+.box:hover {
+  transform: translate(50%, -50%);
+  background-color: blueviolet;
+}
+
+main {
+  width: 600px;
+  height: 400px;
+  position: relative;
+  background-color: khaki;
+}
+
+h1 {
+  /* text-shadow: 10px 10px 2px red; */
+}

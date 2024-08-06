@@ -1,0 +1,48 @@
+div {
+  background-color: chartreuse;
+  /* position: static; */
+  /* position: relative; */
+  /* top: 50px;
+  bottom: 50px;
+  left: 50px;
+  right: 50px; */
+
+  /* inset: 50px; */
+  /* inset means all the top bottom left right properties in one word */
+
+  /* In above case when top and bottom both we want to set position then it takes top and in same case for left and right it takes left */
+}
+
+ul {
+  /* position: relative; */
+  background-color: brown;
+  height: 300px;
+  margin-top: -100px;
+  /* overflow-y: scroll; */
+}
+
+.html-element {
+  background-color: khaki;
+  position: sticky;
+  top: 20px;
+}
+
+.css-element {
+  background-color: aqua;
+  position: absolute;
+  top: 50px;
+  left: 5px;
+  right: 5px;
+
+  /* left: 5px;
+  bottom: 5px;
+  right: 50px; */
+
+  /* inset: 50px; */
+}
+
+.js-element {
+  background-color: orange;
+  position: fixed;
+  top: 5px;
+}

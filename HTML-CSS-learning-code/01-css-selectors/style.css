@@ -1,0 +1,48 @@
+li {
+  font-weight: 700;
+  font-size: 32px;
+}
+
+.html {
+  color: #dd4b25;
+}
+
+.css {
+  color: #254bdd;
+}
+
+.js {
+  color: #efd81d;
+}
+
+.react {
+  color: #09d2f6;
+}
+
+.tailwind {
+  color: #47a9ae;
+}
+
+[class] {
+  background-color: lightblue;
+}
+
+[sanket] {
+  background-color: bisque;
+}
+
+[sanket="abc"] {
+  background-color: yellowgreen;
+}
+
+.web p {
+  background-color: green;
+}
+
+h1:hover {
+  color: red;
+}
+
+[sanket="name"]:hover {
+  color: blue;
+}

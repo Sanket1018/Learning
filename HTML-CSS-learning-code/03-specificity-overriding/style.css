@@ -1,0 +1,45 @@
+li {
+  font-weight: 700;
+  background-color: blueviolet;
+}
+
+/* li {
+  font-weight: 400;
+} */
+
+/* li {
+  background-color: green;
+  color: red;
+} */
+
+li.html {
+  background-color: blue !important;
+}
+
+li {
+  background-color: olivedrab !important;
+}
+
+li {
+  background-color: aquamarine !important;
+}
+
+.html {
+  background-color: deeppink;
+  color: yellow;
+}
+
+.html {
+  background-color: red;
+  color: white;
+}
+
+#html {
+  color: brown;
+  background-color: rebeccapurple;
+}
+
+#html {
+  color: darkmagenta;
+  background-color: aquamarine;
+}

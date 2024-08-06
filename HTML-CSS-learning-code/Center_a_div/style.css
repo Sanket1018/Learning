@@ -1,0 +1,39 @@
+/* .box {
+  background-color: blueviolet;
+  width: 500px;
+  height: 600px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+} */
+
+body{
+  margin: 0;
+}
+
+/* .box {
+  background-color: blanchedalmond;
+  width: 500px;
+  height: 600px;
+  position: absolute;
+  inset: 0px;
+  margin: auto;
+} */
+
+
+/* In case of container we can use flexbox */
+
+.container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+.box{
+  background-color: orange;
+  width: 500px;
+  height: 600px;
+}
+

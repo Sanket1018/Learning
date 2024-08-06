@@ -1,0 +1,49 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  margin: 0;
+  height: 500px;
+}
+
+section {
+  background-color: blueviolet;
+  /* width: 400px; */
+  /* height: 200px; */
+
+  /* padding: 20px; */
+  /* font-size: 20px; */
+  /* margin: 10vw; */
+  font-size: 2em;
+  /* here the 1 em = 16px so 2em= 32px */
+}
+.box {
+  background-color: chartreuse;
+  /* width: 50vw;
+  height: 30vh;
+  padding: 10vw;
+  border: 2vw solid red;
+  font-size: 2vw; */
+  /* width: 100px;
+  height: 500px; */
+  /* width: 50%; */
+  /* height: 50%; */
+  /* height does not apply in percentage unit */
+  /* if the parent height is in pixel then it would be apply */
+  /* padding: 10%; */
+  /* border: 10% solid red; */
+  /* border cannot apply through the percentage */
+
+  /* margin: 10%; */
+  font-size: 1em;
+  /* here font size = 1em = 32px beacause the it takes parents overall font size for one em */
+  width: 3em;
+  /* here for width and padding it looks his own overall em size(font-size) as one em here in this case 1 em = 32px width=32*3=96 */
+  padding: 1em;
+  /* padding = 1em = 32px */
+
+  /* width: 10rem; rem looks for overall size of root element in html root element font-size = 1 rem = 10 px so here 1 rem = 10px and 10rem = 100px so width=100px */
+}
+
+/* Always give padding and margin in pixel */
